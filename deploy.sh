@@ -5,8 +5,8 @@ set -e
 # 打包
 yarn build
 # 建立 docs處理
-rm -rf docs
-cp -r dist docs
+# rm -rf docs
+# cp -r dist docs
 # 移動至到打包後的dist目錄
 cd dist
 # 因為dist資料夾預設是被ignore的，因此在進入dist資料夾後初始化git
